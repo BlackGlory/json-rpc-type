@@ -7,7 +7,7 @@ yarn add json-rpc-types
 ```
 
 ## API
-```
+```ts
 type JsonRpcId = string | number
 type JsonRpcParams<T> = T[] | Record<string, T>
 
