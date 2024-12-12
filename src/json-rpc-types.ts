@@ -67,7 +67,7 @@ export function isntJsonRpcRequest<T>(val: T): val is Exclude<T, JsonRpcRequest<
 export function isJsonRpcSuccess<T>(val: unknown): val is JsonRpcSuccess<T> {
   return isPlainObject(val)
       && isString(val.jsonrpc)
-      && isString(val.id)
+      && isJsonRpcId(val.id)
       && 'result' in val
 }
 
