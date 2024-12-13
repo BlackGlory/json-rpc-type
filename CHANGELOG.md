@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/BlackGlory/json-rpc-types/compare/v0.1.1...v0.1.2) (2024-12-13)
+
+
+### Bug Fixes
+
+* isJsonRpcSuccess accepts numeric id ([aec81c3](https://github.com/BlackGlory/json-rpc-types/commit/aec81c3f24b41b760a1daa3e04b551406a371245))
+
 ### [0.1.1](https://github.com/BlackGlory/json-rpc-types/compare/v0.1.0...v0.1.1) (2023-06-11)
 
 
